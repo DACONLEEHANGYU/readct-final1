@@ -34,7 +34,7 @@ $COMMONHEADER-HEIGHT: 65px;
     }
 
     &__section {
-      display: gird;
+      display: grid;
       grid-template-columns: repeat(5, 1fr);
 
       gap: 20px;
