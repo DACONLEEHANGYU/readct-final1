@@ -38,6 +38,19 @@ $COMMONHEADER-HEIGHT: 65px;
       grid-template-columns: repeat(5, 1fr);
 
       gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    &__footer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      margin-top: 20px;
+
+      button{
+        margin-right: 20px;
+      }
     }
   }
 }
