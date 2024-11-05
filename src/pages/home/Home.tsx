@@ -124,16 +124,12 @@ function Home() {
               let me play among the stars
             </h1>
             <p className="flex items-center mt-2">
-              <img
-                src="src/assets/logo.svg"
-                alt=""
-                className="h-10 mb-3 mr-[1px]"
-              />
+              <img src="/logo.svg" alt="" className="h-10 mb-3 mr-[1px]" />
               <span className="scroll-m-20 text-xl font-medium tracking-tight">
                 는 리액트 기초과정 프로젝트
               </span>
             </p>
-            <img src="src/assets/intro.svg" alt="" className="mt-12" />
+            <img src="/intro.svg" alt="" className="mt-12" />
           </div>
           <section className={styles.page__container__section}>
             {/* 메뉴 카테고리 카드 컴포넌트 UI 삽입 부분 */}

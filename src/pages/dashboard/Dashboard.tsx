@@ -56,11 +56,7 @@ function Dashboard() {
             <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl mb-2">
               React Project Dashboard
             </h1>
-            <img
-              src="src/assets/dashboard.svg"
-              alt=""
-              className={styles.image}
-            />
+            <img src="/dashboard.svg" alt="" className={styles.image} />
           </section>
           <section className={`${styles.page__container__contents} shadow-sm`}>
             <div className={styles.header}>
