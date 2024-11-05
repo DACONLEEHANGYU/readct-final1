@@ -9,10 +9,9 @@ import { atom, useAtom } from "jotai";
 
 import styles from "./page.module.scss";
 
-import CommonHeader from "@/components/organisms/header/CommonHeader";
-import WidgetCategory from "@/components/molecules/home/widget-category/WidgetCategory";
-// import { Card } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { CommonHeader, WidgetCategory } from "@/widgets";
+
+import { Button } from "@/shared";
 import { ArrowRight, CodeSquare, CodeXml, PowerCircle } from "lucide-react";
 
 interface CategoryWidget {

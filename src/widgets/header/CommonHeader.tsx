@@ -1,7 +1,8 @@
-import CommonNav from "@/components/organisms/navigation/CommonNav";
+// CSS
 import styles from "./header.module.scss";
-
-import { Button } from "@/components/ui/button";
+// Components
+import { CommonNav } from "@/widgets";
+import { Button } from "@/shared";
 
 const CommonHeader = () => {
   return (
@@ -19,4 +20,4 @@ const CommonHeader = () => {
   );
 };
 
-export default CommonHeader;
+export { CommonHeader };
