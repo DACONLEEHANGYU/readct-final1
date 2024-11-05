@@ -12,7 +12,7 @@ import styles from "./page.module.scss";
 import { CommonHeader, WidgetCategory } from "@/widgets";
 
 import { Button } from "@/shared";
-import { ArrowRight, CodeSquare, CodeXml, PowerCircle } from "lucide-react";
+import { ArrowRight, CodeXml, PowerCircle } from "lucide-react";
 
 interface CategoryWidget {
   path: string;
